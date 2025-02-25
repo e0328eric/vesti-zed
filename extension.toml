@@ -1,6 +1,6 @@
 id = "vesti"
 name = "Vesti"
-version = "0.0.0"
+version = "0.0.1"
 schema_version = 1
 authors = ["Sungbae Jeong <almagest0328@gmail.com>"]
 description = "vesti language extension for zed"
