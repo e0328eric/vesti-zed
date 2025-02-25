@@ -1,0 +1,11 @@
+id = "vesti"
+name = "Vesti"
+version = "0.0.0"
+schema_version = 1
+authors = ["Sungbae Jeong <almagest0328@gmail.com>"]
+description = "vesti language extension for zed"
+repository = ""
+
+[grammars.vesti]
+repository = "https://github.com/e0328eric/tree-sitter-vesti"
+rev = "0501c2f3204d2d85cc1c8cd9e6afe00036e268d0"
