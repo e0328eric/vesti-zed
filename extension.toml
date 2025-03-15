@@ -8,4 +8,4 @@ repository = ""
 
 [grammars.vesti]
 repository = "https://github.com/e0328eric/tree-sitter-vesti"
-rev = "0501c2f3204d2d85cc1c8cd9e6afe00036e268d0"
+rev = "4bc720ec9bfda04f6bd6ad895b3719bc1e8dabd4"
