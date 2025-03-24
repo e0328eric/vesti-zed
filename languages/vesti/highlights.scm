@@ -28,8 +28,8 @@
 ((inline_math) @string)
 ((display_math) @string)
 
-((singleline_raw_latex) @hint)
-((multiline_raw_latex) @hint)
+((singleline_raw_latex) @string)
+((multiline_raw_latex) @hstring)
 
 ;; Options and environment arguments
 ((options) @constant)
