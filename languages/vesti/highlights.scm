@@ -4,7 +4,7 @@
 ((KEYWORD_docclass) @keyword)
 ((KEYWORD_importpkg) @keyword)
 ((KEYWORD_importmod) @keyword)
-((KEYWORD_importfile) @keyword)
+((KEYWORD_copyfile) @keyword)
 ((KEYWORD_importves) @keyword)
 ((KEYWORD_useltx3) @keyword)
 ((KEYWORD_getfp) @keyword)
@@ -12,17 +12,22 @@
 ((KEYWORD_useenv) @keyword)
 ((KEYWORD_begenv) @keyword)
 ((KEYWORD_endenv) @keyword)
+((KEYWORD_defun) @keyword)
+((KEYWORD_defenv) @keyword)
 ((KEYWORD_makeatletter) @keyword)
 ((KEYWORD_makeatother) @keyword)
 ((KEYWORD_ltx3on) @keyword)
 ((KEYWORD_ltx3off) @keyword)
 ((KEYWORD_nonstopmode) @keyword)
-((KEYWORD_luacode) @keyword)
+((KEYWORD_textmode) @keyword)
+((KEYWORD_mathmode) @keyword)
+((KEYWORD_compty) @keyword)
+((KEYWORD_jlcode) @constant)
+((jlcode_end) @constant)
 
 ;; Identifiers
 ((class_pkg_name) @type)
 ((env_name) @type)
-((luacode_contents) @injection.language) @injection.content
 ((latex_function_name) @function)
 
 ((inline_math) @string)
@@ -35,6 +40,7 @@
 ((options) @constant)
 ((mandantory_arg) @constant)
 ((optional_arg) @constant)
+((defenv_optional_arg) @function)
 
 ;; Comments
 ((comment) @comment)
